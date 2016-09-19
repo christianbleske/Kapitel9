@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9034A2F219A4C80400A783CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9034A2F119A4C80400A783CD /* AppDelegate.swift */; };
+		9034A2F419A4C80400A783CD /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9034A2F319A4C80400A783CD /* MasterViewController.swift */; };
+		9034A2F619A4C80400A783CD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9034A2F519A4C80400A783CD /* DetailViewController.swift */; };
+		9034A2F919A4C80400A783CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9034A2F719A4C80400A783CD /* Main.storyboard */; };
+		9034A2FB19A4C80400A783CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9034A2FA19A4C80400A783CD /* Images.xcassets */; };
+		9034A30719A4C80500A783CD /* AirDropBspSwtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9034A30619A4C80500A783CD /* AirDropBspSwtTests.swift */; };
+		9034A31419A4CB9600A783CD /* text.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9034A31119A4CB9600A783CD /* text.txt */; };
+		9034A31519A4CB9600A783CD /* textpdf.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9034A31219A4CB9600A783CD /* textpdf.pdf */; };
+		9034A31619A4CB9600A783CD /* wiese.png in Resources */ = {isa = PBXBuildFile; fileRef = 9034A31319A4CB9600A783CD /* wiese.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9034A30119A4C80500A783CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9034A2E419A4C80400A783CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9034A2EB19A4C80400A783CD;
+			remoteInfo = AirDropBspSwt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9034A2EC19A4C80400A783CD /* AirDropBspSwt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirDropBspSwt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9034A2F019A4C80400A783CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9034A2F119A4C80400A783CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9034A2F319A4C80400A783CD /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		9034A2F519A4C80400A783CD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9034A2F819A4C80400A783CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9034A2FA19A4C80400A783CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9034A30019A4C80500A783CD /* AirDropBspSwtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirDropBspSwtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9034A30519A4C80500A783CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9034A30619A4C80500A783CD /* AirDropBspSwtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirDropBspSwtTests.swift; sourceTree = "<group>"; };
+		9034A31119A4CB9600A783CD /* text.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = text.txt; path = BspFiles/text.txt; sourceTree = "<group>"; };
+		9034A31219A4CB9600A783CD /* textpdf.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = textpdf.pdf; path = BspFiles/textpdf.pdf; sourceTree = "<group>"; };
+		9034A31319A4CB9600A783CD /* wiese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wiese.png; path = BspFiles/wiese.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9034A2E919A4C80400A783CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9034A2FD19A4C80500A783CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9034A2E319A4C80400A783CD = {
+			isa = PBXGroup;
+			children = (
+				9034A2EE19A4C80400A783CD /* AirDropBspSwt */,
+				9034A30319A4C80500A783CD /* AirDropBspSwtTests */,
+				9034A2ED19A4C80400A783CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9034A2ED19A4C80400A783CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9034A2EC19A4C80400A783CD /* AirDropBspSwt.app */,
+				9034A30019A4C80500A783CD /* AirDropBspSwtTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9034A2EE19A4C80400A783CD /* AirDropBspSwt */ = {
+			isa = PBXGroup;
+			children = (
+				9034A31019A4CB7B00A783CD /* Files */,
+				9034A2F119A4C80400A783CD /* AppDelegate.swift */,
+				9034A2F319A4C80400A783CD /* MasterViewController.swift */,
+				9034A2F519A4C80400A783CD /* DetailViewController.swift */,
+				9034A2F719A4C80400A783CD /* Main.storyboard */,
+				9034A2FA19A4C80400A783CD /* Images.xcassets */,
+				9034A2EF19A4C80400A783CD /* Supporting Files */,
+			);
+			path = AirDropBspSwt;
+			sourceTree = "<group>";
+		};
+		9034A2EF19A4C80400A783CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9034A2F019A4C80400A783CD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9034A30319A4C80500A783CD /* AirDropBspSwtTests */ = {
+			isa = PBXGroup;
+			children = (
+				9034A30619A4C80500A783CD /* AirDropBspSwtTests.swift */,
+				9034A30419A4C80500A783CD /* Supporting Files */,
+			);
+			path = AirDropBspSwtTests;
+			sourceTree = "<group>";
+		};
+		9034A30419A4C80500A783CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9034A30519A4C80500A783CD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9034A31019A4CB7B00A783CD /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				9034A31119A4CB9600A783CD /* text.txt */,
+				9034A31219A4CB9600A783CD /* textpdf.pdf */,
+				9034A31319A4CB9600A783CD /* wiese.png */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9034A2EB19A4C80400A783CD /* AirDropBspSwt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9034A30A19A4C80500A783CD /* Build configuration list for PBXNativeTarget "AirDropBspSwt" */;
+			buildPhases = (
+				9034A2E819A4C80400A783CD /* Sources */,
+				9034A2E919A4C80400A783CD /* Frameworks */,
+				9034A2EA19A4C80400A783CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirDropBspSwt;
+			productName = AirDropBspSwt;
+			productReference = 9034A2EC19A4C80400A783CD /* AirDropBspSwt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9034A2FF19A4C80500A783CD /* AirDropBspSwtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9034A30D19A4C80500A783CD /* Build configuration list for PBXNativeTarget "AirDropBspSwtTests" */;
+			buildPhases = (
+				9034A2FC19A4C80500A783CD /* Sources */,
+				9034A2FD19A4C80500A783CD /* Frameworks */,
+				9034A2FE19A4C80500A783CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9034A30219A4C80500A783CD /* PBXTargetDependency */,
+			);
+			name = AirDropBspSwtTests;
+			productName = AirDropBspSwtTests;
+			productReference = 9034A30019A4C80500A783CD /* AirDropBspSwtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9034A2E419A4C80400A783CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Christian Bleske";
+				TargetAttributes = {
+					9034A2EB19A4C80400A783CD = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = B688N957UZ;
+						DevelopmentTeamName = "Christian Bleske";
+						LastSwiftMigration = 0800;
+					};
+					9034A2FF19A4C80500A783CD = {
+						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0800;
+						TestTargetID = 9034A2EB19A4C80400A783CD;
+					};
+				};
+			};
+			buildConfigurationList = 9034A2E719A4C80400A783CD /* Build configuration list for PBXProject "AirDropBspSwt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9034A2E319A4C80400A783CD;
+			productRefGroup = 9034A2ED19A4C80400A783CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9034A2EB19A4C80400A783CD /* AirDropBspSwt */,
+				9034A2FF19A4C80500A783CD /* AirDropBspSwtTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9034A2EA19A4C80400A783CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9034A2F919A4C80400A783CD /* Main.storyboard in Resources */,
+				9034A31419A4CB9600A783CD /* text.txt in Resources */,
+				9034A31519A4CB9600A783CD /* textpdf.pdf in Resources */,
+				9034A2FB19A4C80400A783CD /* Images.xcassets in Resources */,
+				9034A31619A4CB9600A783CD /* wiese.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9034A2FE19A4C80500A783CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9034A2E819A4C80400A783CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9034A2F619A4C80400A783CD /* DetailViewController.swift in Sources */,
+				9034A2F419A4C80400A783CD /* MasterViewController.swift in Sources */,
+				9034A2F219A4C80400A783CD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9034A2FC19A4C80500A783CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9034A30719A4C80500A783CD /* AirDropBspSwtTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9034A30219A4C80500A783CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9034A2EB19A4C80400A783CD /* AirDropBspSwt */;
+			targetProxy = 9034A30119A4C80500A783CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9034A2F719A4C80400A783CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9034A2F819A4C80400A783CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9034A30819A4C80500A783CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9034A30919A4C80500A783CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9034A30B19A4C80500A783CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AirDropBspSwt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christianbleske.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9034A30C19A4C80500A783CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AirDropBspSwt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christianbleske.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9034A30E19A4C80500A783CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AirDropBspSwtTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christianbleske.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirDropBspSwt.app/AirDropBspSwt";
+			};
+			name = Debug;
+		};
+		9034A30F19A4C80500A783CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AirDropBspSwtTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christianbleske.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirDropBspSwt.app/AirDropBspSwt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9034A2E719A4C80400A783CD /* Build configuration list for PBXProject "AirDropBspSwt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9034A30819A4C80500A783CD /* Debug */,
+				9034A30919A4C80500A783CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9034A30A19A4C80500A783CD /* Build configuration list for PBXNativeTarget "AirDropBspSwt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9034A30B19A4C80500A783CD /* Debug */,
+				9034A30C19A4C80500A783CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9034A30D19A4C80500A783CD /* Build configuration list for PBXNativeTarget "AirDropBspSwtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9034A30E19A4C80500A783CD /* Debug */,
+				9034A30F19A4C80500A783CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9034A2E419A4C80400A783CD /* Project object */;
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BspWetterAppSwt" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PVm-k4-Vbg"/>
+                        <viewControllerLayoutGuide type="bottom" id="XDH-OV-xuk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6kC-MM-oiG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Witten" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Dy-i4-41x">
+                                <rect key="frame" x="146" y="20" width="309" height="49"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="37"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Sonnig" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZXa-eE-yDr">
+                                <rect key="frame" x="140" y="83" width="320" height="26"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="03d.png" translatesAutoresizingMaskIntoConstraints="NO" id="sVa-cg-ZOO">
+                                <rect key="frame" x="281" y="117" width="39" height="35"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="99" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nYc-v3-2rC">
+                                <rect key="frame" x="210" y="160" width="180" height="75"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="37"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32328064410000001" green="0.71535909639999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="sVa-cg-ZOO" firstAttribute="top" secondItem="ZXa-eE-yDr" secondAttribute="bottom" constant="8" symbolic="YES" id="3Js-26-tgl"/>
+                            <constraint firstItem="ZXa-eE-yDr" firstAttribute="top" secondItem="4Dy-i4-41x" secondAttribute="bottom" constant="8" symbolic="YES" id="3oL-sm-N5S"/>
+                            <constraint firstItem="ZXa-eE-yDr" firstAttribute="top" secondItem="4Dy-i4-41x" secondAttribute="bottom" constant="8" symbolic="YES" id="7J9-Bu-hQ8"/>
+                            <constraint firstAttribute="trailing" secondItem="nYc-v3-2rC" secondAttribute="trailing" constant="20" symbolic="YES" id="7Sx-XO-cWH"/>
+                            <constraint firstAttribute="centerY" secondItem="sVa-cg-ZOO" secondAttribute="centerY" id="CEc-bc-Q1U"/>
+                            <constraint firstAttribute="trailing" secondItem="4Dy-i4-41x" secondAttribute="trailing" constant="20" symbolic="YES" id="Hw3-3g-X9f"/>
+                            <constraint firstItem="ZXa-eE-yDr" firstAttribute="leading" secondItem="6kC-MM-oiG" secondAttribute="leading" constant="20" symbolic="YES" id="JG2-v2-Dw6"/>
+                            <constraint firstItem="nYc-v3-2rC" firstAttribute="top" secondItem="sVa-cg-ZOO" secondAttribute="bottom" constant="8" symbolic="YES" id="Jr9-Nx-Ni4"/>
+                            <constraint firstItem="4Dy-i4-41x" firstAttribute="leading" secondItem="6kC-MM-oiG" secondAttribute="leading" constant="20" symbolic="YES" id="KAS-Z9-4VT"/>
+                            <constraint firstItem="nYc-v3-2rC" firstAttribute="leading" secondItem="6kC-MM-oiG" secondAttribute="leading" constant="20" symbolic="YES" id="UyI-Kt-ODE"/>
+                            <constraint firstAttribute="trailing" secondItem="ZXa-eE-yDr" secondAttribute="trailing" constant="20" symbolic="YES" id="lk1-Z5-gyA"/>
+                            <constraint firstItem="sVa-cg-ZOO" firstAttribute="top" secondItem="ZXa-eE-yDr" secondAttribute="bottom" constant="8" symbolic="YES" id="ts4-TQ-HNA"/>
+                            <constraint firstAttribute="centerX" secondItem="sVa-cg-ZOO" secondAttribute="centerX" id="vUF-g2-BmR"/>
+                            <constraint firstItem="nYc-v3-2rC" firstAttribute="top" secondItem="sVa-cg-ZOO" secondAttribute="bottom" constant="8" symbolic="YES" id="wsl-zH-XnU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cityNameLabel" destination="4Dy-i4-41x" id="iW0-tw-1SH"/>
+                        <outlet property="temperatureLabel" destination="nYc-v3-2rC" id="gxy-bg-2ND"/>
+                        <outlet property="weatherDescriptionLabel" destination="ZXa-eE-yDr" id="MSa-Wc-83g"/>
+                        <outlet property="weatherImage" destination="sVa-cg-ZOO" id="thd-JS-C1r"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="03d.png" width="50" height="50"/>
+    </resources>
+</document>
